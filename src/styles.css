@@ -40,35 +40,42 @@
 :root {
   --radius: 0.125rem;
 
-  /* Deep cinematic monochrome with frost-blue accent */
-  --background: oklch(0.08 0.005 240);
-  --foreground: oklch(0.97 0.005 240);
-  --ink: oklch(0.04 0 0);
-  --card: oklch(0.11 0.006 240);
-  --card-foreground: oklch(0.97 0.005 240);
-  --popover: oklch(0.11 0.006 240);
-  --popover-foreground: oklch(0.97 0.005 240);
-  --primary: oklch(0.97 0.005 240);
-  --primary-foreground: oklch(0.08 0.005 240);
-  --secondary: oklch(0.18 0.008 240);
-  --secondary-foreground: oklch(0.97 0.005 240);
-  --muted: oklch(0.16 0.006 240);
-  --muted-foreground: oklch(0.62 0.012 240);
-  --accent: oklch(0.85 0.06 230);
-  --accent-foreground: oklch(0.08 0.005 240);
-  --destructive: oklch(0.577 0.245 27.325);
+  /* Frostblood brand: deep navy + ice + gold + blood red */
+  --background: oklch(0.13 0.04 265);
+  --foreground: oklch(0.97 0.01 240);
+  --ink: oklch(0.06 0.03 265);
+  --navy-deep: oklch(0.16 0.06 265);
+  --navy: oklch(0.22 0.08 262);
+  --card: oklch(0.17 0.05 265);
+  --card-foreground: oklch(0.97 0.01 240);
+  --popover: oklch(0.17 0.05 265);
+  --popover-foreground: oklch(0.97 0.01 240);
+  --primary: oklch(0.78 0.14 78);            /* gold */
+  --primary-foreground: oklch(0.13 0.04 265);
+  --secondary: oklch(0.22 0.08 262);
+  --secondary-foreground: oklch(0.97 0.01 240);
+  --muted: oklch(0.2 0.05 265);
+  --muted-foreground: oklch(0.7 0.03 250);
+  --accent: oklch(0.6 0.22 27);              /* blood red */
+  --accent-foreground: oklch(0.97 0.01 240);
+  --destructive: oklch(0.6 0.22 27);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(1 0 0 / 8%);
+  --border: oklch(0.78 0.14 78 / 18%);
   --input: oklch(1 0 0 / 12%);
-  --ring: oklch(0.85 0.06 230);
+  --ring: oklch(0.78 0.14 78);
 
-  --frost: oklch(0.88 0.05 225);
-  --frost-deep: oklch(0.55 0.09 230);
-  --silver: oklch(0.78 0.008 240);
+  --frost: oklch(0.88 0.06 225);
+  --ice: oklch(0.78 0.08 220);
+  --gold: oklch(0.78 0.14 78);
+  --gold-deep: oklch(0.62 0.13 70);
+  --blood: oklch(0.55 0.22 27);
 
-  --gradient-frost: linear-gradient(135deg, oklch(0.88 0.05 225), oklch(0.55 0.09 230));
+  --gradient-gold: linear-gradient(135deg, oklch(0.88 0.13 85), oklch(0.55 0.13 65));
+  --gradient-frost: linear-gradient(180deg, oklch(0.92 0.06 225), oklch(0.55 0.1 230));
+  --gradient-blood: linear-gradient(135deg, oklch(0.65 0.24 27), oklch(0.35 0.18 25));
   --gradient-glass: linear-gradient(180deg, oklch(1 0 0 / 0.06), oklch(1 0 0 / 0.01));
-  --shadow-frost: 0 30px 80px -20px oklch(0.55 0.09 230 / 0.35);
+  --shadow-gold: 0 30px 80px -20px oklch(0.78 0.14 78 / 0.35);
+  --shadow-blood: 0 30px 80px -20px oklch(0.55 0.22 27 / 0.4);
 }
 
 .dark {

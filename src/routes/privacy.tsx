@@ -47,7 +47,7 @@ function PrivacyPage() {
 function Section({ label, body }: { label: string; body: string }) {
   return (
     <div className="space-y-3">
-      <div className="font-mono tracking-mono text-[10px] text-gold/60">
+      <div className="font-mono tracking-mono text-[10px] text-foreground/50">
         {label}
       </div>
       <p>{body}</p>

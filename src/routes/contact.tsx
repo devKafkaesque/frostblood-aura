@@ -16,7 +16,7 @@ export const Route = createFileRoute("/contact")({
 function ContactPage() {
   return (
     <PageShell label="Contact">
-      <h1 className="font-display text-5xl md:text-7xl leading-[0.9] mb-12">
+      <h1 className="font-display text-5xl md:text-8xl leading-[0.85] mb-12">
         Reach the atelier.
       </h1>
       <div className="grid md:grid-cols-3 gap-12 max-w-4xl">
@@ -31,10 +31,10 @@ function ContactPage() {
 function Item({ label, value }: { label: string; value: string }) {
   return (
     <div className="space-y-3">
-      <div className="font-mono tracking-mono text-[10px] text-gold/60">
+      <div className="font-mono tracking-mono text-[10px] text-foreground/50">
         {label}
       </div>
-      <div className="font-display text-2xl text-foreground">{value}</div>
+      <div className="font-display text-xl md:text-2xl text-foreground">{value}</div>
     </div>
   );
 }

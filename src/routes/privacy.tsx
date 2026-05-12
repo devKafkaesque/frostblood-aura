@@ -19,7 +19,7 @@ export const Route = createFileRoute("/privacy")({
 function PrivacyPage() {
   return (
     <PageShell label="Privacy">
-      <h1 className="font-display text-5xl md:text-7xl leading-[0.9] mb-12">
+      <h1 className="font-display text-5xl md:text-8xl leading-[0.85] mb-12">
         Privacy.
       </h1>
       <div className="space-y-10 max-w-2xl text-foreground/70 leading-relaxed text-[15px]">
